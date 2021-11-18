@@ -1,0 +1,63 @@
+.welcome-header {
+  margin: 90px 0;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.welcome-header .welcome-header__title {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.welcome-header .welcome-header__text {
+  /* opacity: 0.3; */
+  color: gray;
+  line-height: 160%;
+}
+
+.welcome-form {
+  display: flex;
+  flex-direction: column;
+  margin: 0 50px;
+}
+
+.welcome-form .welcome-form__input {
+  margin-bottom: 20px;
+  padding: 10px 0;
+  border: none;
+  border-bottom: 1px solid rgba(158, 129, 129, 0.3);
+  font-size: 16px;
+}
+
+.welcome-form .welcome-form__input::placeholder {
+  color: gray;
+  opacity: 0.5;
+}
+
+.welcome-form .welcome-form__submit {
+  padding: 10px;
+  font-size: 20px;
+  margin-bottom: 30px;
+  border: none;
+  border-radius: 10px;
+  margin-top: 10px;
+  background-color: var(--yellow);
+}
+
+.welcome-form .welcome-form__a {
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  font-size: 12px;
+}
+
+.welcome-form .welcome-form__submit:hover {
+  cursor: pointer;
+}
+
+.welcome-form .welcome-form__input:focus {
+  border: none;
+  border-bottom: 1.5px solid rgba(158, 129, 129, 0.8);
+}
