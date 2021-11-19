@@ -3,21 +3,18 @@
   justify-content: space-between;
   padding-top: 40px;
   align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .screen-header__title {
   color: black;
   font-size: 30px;
   font-weight: 500;
-  margin-left: 20px;
 }
 
 .screen-header__icon i {
   margin: 0px 12px;
-}
-
-.screen-header__icon:last-child {
-  margin-right: 20px;
 }
 
 .friends-display-link {
@@ -42,10 +39,8 @@
   margin-top: 10px;
   display: flex;
   justify-content: space-between;
-  margin-left: 20px;
-  margin-right: 20px;
 }
 
-.list-channel__holder:nth-child(1) {
+.list-channel__holder {
   color: var(--gray);
 }

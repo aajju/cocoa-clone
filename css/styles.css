@@ -6,10 +6,16 @@
 @import "components/status-bar.css";
 @import "components/nav-bar.css";
 @import "components/card.css";
+@import "components/badge.css";
 
 /* screens */
 @import "screens/login.css";
 @import "screens/friends.css";
 body {
   font-family: "Open Sans", sans-serif;
+}
+
+main {
+  padding-left: 20px;
+  padding-right: 20px;
 }
