@@ -1,4 +1,5 @@
 :root {
   --yellow: #fae100;
-  --gray: rgba(161, 161, 161);
+  --gray: rgba(0, 0, 0, 0.3);
+  --grayplus: rgba(0, 0, 0, 0.5);
 }
