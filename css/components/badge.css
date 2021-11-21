@@ -9,3 +9,17 @@
   align-items: center;
   font-weight: 600;
 }
+
+.badge_small {
+  background-color: red;
+  color: white;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  margin-left: 10px;
+  font-size: 10px;
+}

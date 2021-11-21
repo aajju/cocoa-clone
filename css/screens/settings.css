@@ -1,0 +1,41 @@
+.upper {
+  border-bottom: 1px solid var(--gray);
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+
+.upper .settings {
+  margin: 0 20px;
+}
+
+.settings {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.settings:last-child {
+  border: none;
+  margin-bottom: 25px;
+}
+
+.settings__column {
+  display: flex;
+  align-items: center;
+}
+
+.settings__column span:not(.badge_small) {
+  font-size: 18px;
+}
+
+.settings__column i {
+  margin-right: 15px;
+}
+
+.settings__column:nth-child(2) span {
+  color: var(--gray);
+  font-size: 14px;
+}
