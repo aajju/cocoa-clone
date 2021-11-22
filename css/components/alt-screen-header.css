@@ -33,8 +33,9 @@
   font-weight: 500;
 }
 
-.alt-screen-header__column {
-  width: 33%;
+.alt-screen-header__column:first-child,
+.alt-screen-header__column:last-child {
+  width: 10%;
 }
 
 .alt-screen-header__column:first-child {
@@ -46,6 +47,7 @@
 .alt-screen-header__column:nth-child(2) {
   display: flex;
   justify-content: center;
+  width: 100%;
 }
 
 .alt-screen-header__column:last-child {

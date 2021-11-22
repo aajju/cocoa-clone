@@ -49,6 +49,29 @@
   height: 70px;
 }
 
+@keyframes heartBeat {
+  0% {
+    color: white;
+    /* font-size: 13px; */
+    transform: none;
+  }
+  50% {
+    color: red;
+    /* font-size: 15px; */
+    transform: scale(1.4);
+  }
+  100% {
+    color: white;
+    /* font-size: 13px; */
+    transform: none;
+  }
+}
+
+.openchat-card__right:hover .openchat-card__right_heartcount i {
+  animation: heartBeat 1s ease-in-out infinite;
+  will-change: transform;
+}
+
 .openchat-card__left_member {
   display: flex;
   align-items: center;
@@ -98,8 +121,8 @@
   opacity: 0.6;
   border-radius: 20px;
   position: absolute;
-  padding: 2px 4px;
+  padding: 4px 8px;
   font-size: 13px;
-  top: 50px;
-  right: 8px;
+  top: 40px;
+  right: 2px;
 }

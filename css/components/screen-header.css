@@ -13,6 +13,16 @@
   font-weight: 500;
 }
 
+.screen-header__icon {
+  display: flex;
+}
+
+.screen-header__icon__column:last-child {
+  /* background-color: red; */
+  position: relative;
+}
+
 .screen-header__icon i {
   margin: 0px 12px;
+  /* position: relative; */
 }
