@@ -1,10 +1,30 @@
 .alt-screen-header {
   display: flex;
   justify-content: center;
-  padding-top: 40px;
+  padding-top: 20px;
   align-items: center;
   padding-left: 20px;
   padding-right: 20px;
+  position: fixed;
+  width: 100%;
+  box-sizing: border-box;
+  z-index: 3;
+  top: 10px;
+}
+
+.alt-screen-header_chatroom {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  position: fixed;
+  width: 100%;
+  box-sizing: border-box;
+  z-index: 1;
+  top: 10px;
+  background-color: #abc1d1;
 }
 
 .alt-screen-header__title {
@@ -13,12 +33,25 @@
   font-weight: 500;
 }
 
+.alt-screen-header__column {
+  width: 33%;
+}
+
 .alt-screen-header__column:first-child {
-  margin-right: auto;
+  /* margin-right: auto; */
+  display: flex;
+  justify-content: flex-start;
+}
+
+.alt-screen-header__column:nth-child(2) {
+  display: flex;
+  justify-content: center;
 }
 
 .alt-screen-header__column:last-child {
   margin-left: auto;
+  justify-content: flex-end;
+  display: flex;
 }
 
 .alt-screen-header__icon i:nth-child(2) {

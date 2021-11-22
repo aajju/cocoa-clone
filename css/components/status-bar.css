@@ -5,6 +5,8 @@
   /* top: 0px; */
   width: 100%;
   background-color: white;
+  z-index: 2;
+  top: 0px;
 }
 
 .status-bar-chatroom {
@@ -13,6 +15,9 @@
   position: fixed;
   /* top: 0px; */
   width: 100%;
+  top: 0px;
+  background-color: #abc1d1;
+  z-index: 2;
   /* background-color: white; */
 }
 
