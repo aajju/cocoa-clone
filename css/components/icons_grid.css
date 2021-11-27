@@ -1,0 +1,9 @@
+.icons_grid {
+  display: grid;
+  grid-template-columns: repeat(4, 25%);
+  /* justify-content: space-between; */
+  /* align-items: center; */
+  /* padding-right: 20px; */
+  margin-top: 20px;
+  justify-content: center;
+}
