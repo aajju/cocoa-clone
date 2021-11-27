@@ -11,33 +11,10 @@
   flex-direction: column;
   align-items: center;
   font-size: 12px;
+  margin-top: 10px;
   /* justify-content: space-between; */
 }
 
 .icons__icon i {
   margin-bottom: 10px;
-}
-
-.icons2 {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  margin-top: 30px;
-  padding-right: 20px;
-}
-
-.icons2 .icons__icon {
-  margin-right: 50px;
-}
-
-.icons3 {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  margin-top: 30px;
-  padding-right: 20px;
-}
-
-.icons3 .icons__icon {
-  margin-right: 20px;
 }
