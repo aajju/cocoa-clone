@@ -11,6 +11,7 @@
 @import "components/screen-header.css";
 @import "components/alt-screen-header.css";
 @import "components/onlymobile.css";
+@import "components/icons_grid.css";
 
 /* screens */
 @import "screens/login.css";
